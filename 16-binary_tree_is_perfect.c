@@ -3,7 +3,7 @@
 /**
  * binary_tree_is_perfect -> checks if a binary tree is perfect
  * @tree: a pointer to the root node of the tree to check
- * Return: 1 if the tree is perfect, 0 if the tree is not 
+ * Return: 1 if the tree is perfect, 0 if the tree is not
  * perfect, 0 if tree is NULL
  */
 int binary_tree_is_perfect(const binary_tree_t *tree)
@@ -39,7 +39,7 @@ int _pow_recursion(int x, int y)
 	if (y == 0)
 		return (1);
 	else
-		return (x *_pow_recursion(x, y - 1));
+		return (x * _pow_recursion(x, y - 1));
 }
 
 /**
